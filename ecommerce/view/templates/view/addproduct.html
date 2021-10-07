@@ -1,0 +1,50 @@
+{% extends "view/base.html"%}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="fw-bold">Add Product</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="" class="form-label">Name</label>
+                                <input type="text" Required name="name" class="form-control" value="{{ product.name }}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Brand</label>
+                                <input type="text" Required name="brand" class="form-control" value="{{ product.brand }}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Description</label>
+                                <input type="text" Required name="description" placeholder="Storage/Ram etc" class="form-control" value="{{ product.description }}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Price</label>
+                                <input type="text" Required name="price" class="form-control" value="{{ product.price }}">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Rating</label>
+                                <input type="text" Required name="rating" class="form-control" value="{{ product.rating }}">
+                            </div>
+
+                             <div class="mb-3">
+                                <p> Current Image :</p> <a  href="{{ product.image }}"> {{ product.image }}</a> <br>
+                                <label for="" class="form-label">Image</label>
+                                <input type="file" Required name="image" class="form-control" value="str {{ product.image }}">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
