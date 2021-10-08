@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Running the app
 ```
-pythoh manage.py runserver
+python manage.py runserver
 ```
 
 
