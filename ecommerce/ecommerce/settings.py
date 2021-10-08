@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pt28-30=v_qwg^=s43*dhnq%6ykpf)k*u+4h=4fgkvw56xw*0g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['quickybuy.herokuapp.com', 'localhost']
 
 
 # Application definition
