@@ -29,9 +29,11 @@ pythoh manage.py runserver
 * and lots of Javascript HTML and CSS for UI 
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/22417162/117569562-e4f10e80-b0e3-11eb-89db-584bcde60798.png)
-![image](https://user-images.githubusercontent.com/22417162/117569630-313c4e80-b0e4-11eb-92ae-ae3bf515cca3.png)
-
+![image](https://user-images.githubusercontent.com/22417162/136584241-ddc70279-ea4c-4ced-8c06-dff7e8268f2d.PNG)
+![image](https://user-images.githubusercontent.com/22417162/136584245-d6bafb54-afaa-4e15-8e8d-14469de071e1.PNG)
+![image](https://user-images.githubusercontent.com/22417162/136584249-ae1db228-b855-4e65-aa68-dd108da5c521.PNG)
+![image](https://user-images.githubusercontent.com/22417162/136584259-a026244c-885c-45d5-ac2f-effdc32b261f.PNG)
+![image](https://user-images.githubusercontent.com/22417162/136584265-ba12e4fc-715f-4a9d-b595-db018467313a.PNG)
 
 
 ## License
