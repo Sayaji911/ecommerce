@@ -21,7 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('view.urls')),
+    path('',include('view.urls')), #if reached an empty route .. forward to view.urls route and include them all
 
 ]
 
